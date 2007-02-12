@@ -1,7 +1,7 @@
 %define		_modname	courierauth
 %define		_status		beta
 Summary:	%{_modname} - binding to courier-authlib library
-Summary(pl):	%{_modname} - wi±zanie do biblioteki courier-authlib
+Summary(pl.UTF-8):   %{_modname} - wiÄ…zanie do biblioteki courier-authlib
 Name:		php-pecl-%{_modname}
 Version:	0.1.0
 Release:	1
@@ -23,8 +23,8 @@ backends.
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
-Pakiet ten udostêpnia mo¿liwo¶æ uwierzytelniania wzglêdem dowolnego
+%description -l pl.UTF-8
+Pakiet ten udostÄ™pnia moÅ¼liwoÅ›Ä‡ uwierzytelniania wzglÄ™dem dowolnego
 backendu authdaemond couriera.
 
 To rozszerzenie ma w PECL status: %{_status}.
