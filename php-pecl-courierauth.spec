@@ -1,7 +1,7 @@
 %define		_modname	courierauth
 %define		_status		beta
 Summary:	%{_modname} - binding to courier-authlib library
-Summary(pl.UTF-8):   %{_modname} - wiązanie do biblioteki courier-authlib
+Summary(pl.UTF-8):	%{_modname} - wiązanie do biblioteki courier-authlib
 Name:		php-pecl-%{_modname}
 Version:	0.1.0
 Release:	1
