@@ -4,7 +4,7 @@ Summary:	%{_modname} - binding to courier-authlib library
 Summary(pl.UTF-8):	%{_modname} - wiązanie do biblioteki courier-authlib
 Name:		php-pecl-%{_modname}
 Version:	0.1.0
-Release:	1
+Release:	2
 License:	BSD, revised
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
