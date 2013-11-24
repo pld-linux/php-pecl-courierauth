@@ -5,7 +5,7 @@ Summary:	%{modname} - binding to courier-authlib library
 Summary(pl.UTF-8):	%{modname} - wiązanie do biblioteki courier-authlib
 Name:		%{php_name}-pecl-%{modname}
 Version:	0.1.0
-Release:	3
+Release:	4
 License:	BSD, revised
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
@@ -16,6 +16,7 @@ BuildRequires:	courier-authlib-devel
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
 Requires:	php(core) >= 5.0.4
+Provides:	php(%{modname}) = %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
